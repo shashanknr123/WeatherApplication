@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.sticky-header {
+    background-color: #8b7dd9e1;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-family:'Times New Roman', Times, serif;
+    top: 0;
+    font-size: 30px;
+    
+    margin: 0;
+  padding: 0;
+}
+
+.weather-container {
+    background-color: rgba(213, 227, 247, 0.795);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+}
+.grid-item {
+    background-color: #dcdcdcf7;
+    padding: 15px;
+    border-radius: 8px;
+    color: #0056b3;
+    font-weight: 700;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grid-item img {
+    width: 25px;  /* Set the desired width */
+    height: 25px; /* Set the desired height */
+    vertical-align: middle; /* Align the image vertically in the middle */
+    margin-left: 5px; /* Add some space between the text and the icon */
+}
+
+.grid-item span{
+    font-size: 10px;
+    color: #ffffff;
+}
